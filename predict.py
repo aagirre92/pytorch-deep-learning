@@ -6,9 +6,7 @@ from PIL import Image
 from torchvision.transforms import v2 as transforms
 import argparse
 import model_builder
-import torch
 from PIL import Image
-from torchvision.transforms import v2 as transforms
 
 def predict(model:torch.nn.Module,num_images:int,image_path:str,transform:torchvision.transforms.v2=None,device=None):
 

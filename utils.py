@@ -2,11 +2,9 @@
 """
 File containing various utility functions
 """
-
 from pathlib import Path
 import torch
 from torch.utils.tensorboard import SummaryWriter
-
 
 def set_seeds_cpu_cuda(seed: int = 42):
     """Sets random seeds for torch operations
